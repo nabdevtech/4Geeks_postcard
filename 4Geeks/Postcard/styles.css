@@ -1,0 +1,63 @@
+/* * {
+	border: 1px dashed red;
+	min-height: 10px;
+} */
+
+body {
+	background: black;
+	font-family: "Bad Script", cursive;
+}
+
+.postcard {
+	background-color: white;
+	width: 400px;
+	height: 300px;
+	margin: auto;
+	padding: 5px;
+}
+
+.postcard-header {
+	display: flex;
+}
+
+h1 {
+	width: 85%;
+	margin: 0;
+}
+
+img {
+	height: 50px;
+	width: 50px;
+}
+
+.postcard-body {
+	display: flex;
+}
+
+.body-left {
+	padding: 5px;
+}
+
+p {
+	font-size: 15px;
+	margin-top: 0px;
+}
+
+.body-right {
+	flex-direction: column;
+	padding: 5px;
+}
+
+input {
+	border-bottom: solid 1px grey;
+	font-size: 15px;
+}
+
+.postcard-footer {
+	text-align: center;
+}
+
+button {
+	background-color: tomato;
+	padding: 5px;
+}
